@@ -5,7 +5,8 @@ CFLAGS = -Wall -Wextra -Werror -std=c++98
 DFLAGS = -fsanitize=address
 
 # Directory
-SRC = main.cpp
+SRC = main.cpp Animal.cpp Dog.cpp Cat.cpp WrongAnimal.cpp WrongCat.cpp
+
 OBJ = $(SRC:.cpp=.o)
 
 all: $(NAME)
