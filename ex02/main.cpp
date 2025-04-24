@@ -42,5 +42,11 @@ int main()
 
     std::cout << "-------------------------------------------------" << std::endl;
 
+    // Animal* animal = new Animal();
+    // delete animal;
+    // This will cause a compilation error because Animal is an abstract class
+    // and cannot be instantiated directly.
+
+    
     return 0;
 }
